@@ -124,7 +124,7 @@ Depiction: https://username.github.io/repo/depictions/?p=com.sukarodo.oldpackage
 For Sileo Depictions, add the SileoDepiction key in your `control` file before compiling it.
 
 ```text
-SileoDepiction: https://username.github.io/repo/sileodepictions/com.sukarodo.samplepackage/depiction.json.json
+SileoDepiction: https://username.github.io/repo/sileodepictions/com.sukarodo.samplepackage/depiction.json
 ````
 
 #### Rebuilding the `Packages` file
