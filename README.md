@@ -104,7 +104,8 @@ Contact [@sukarodo](https://twitter.com/sukarodo) for questions.
 
 Go to the /sileodepictions/com.sukarodo.samplepackage and copy the file `depiction.json`.
 Move into a folder labeled as your package name.
-Edit The Labeled Parts (i.e. VERSION_NUMBER, TWEAK_NAME, etc.). Or use the Sileo Depiction Generator by [@M4cs](https://twitter.com/maxbridgland): [SileoGen](https://sileogen.com/)
+Edit The Labeled Parts (i.e. VERSION_NUMBER, TWEAK_NAME, etc.)., use the Sileo Depiction Generator by [@M4cs](https://twitter.com/maxbridgland): [SileoGen](https://sileogen.com/), or use any of the templates from popular
+repositories at /assets/Depiction Templates
 Contact [@sukarodo](https://twitter.com/sukarodo) for questions.
 
 #### Link the depiction page in your tweak's `control` file
