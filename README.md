@@ -102,7 +102,7 @@ Contact [@sukarodo](https://twitter.com/sukarodo) for questions.
 ```
 ### Adding a simple depiction page (Sileo)
 
-Go to the /sileodepictions/com.sukarodo.samplepackage and copy the file `depiction.json`.
+Go to the /depictions/native/com.sukarodo.samplepackage and copy the file `depiction.json`.
 Move into a folder labeled as your package name.
 Edit The Labeled Parts (i.e. VERSION_NUMBER, TWEAK_NAME, etc.)., use the Sileo Depiction Generator by [@M4cs](https://twitter.com/maxbridgland): [SileoGen](https://sileogen.com/), or use any of the templates from popular
 repositories at /assets/Depiction Templates
@@ -114,31 +114,26 @@ You can add the depictions url at the end of your package's `control` file befor
 The depiction line should look like this:
 
 ```text
-Depiction: https://username.github.io/repo/depictions/?p=[idhere]
+Depiction: https://username.github.io/repo/depictions/web/?p=[idhere]
 ```
 
 Replace `[idhere]` with your actual package name.
 
 ```text
-Depiction: https://username.github.io/repo/depictions/?p=com.sukarodo.oldpackage
+Depiction: https://username.github.io/repo/depictions/web/?p=com.sukarodo.oldpackage
 ```
 For Sileo Depictions, add the SileoDepiction key in your `control` file before compiling it.
 
 ```text
-SileoDepiction: https://username.github.io/repo/sileodepictions/com.sukarodo.samplepackage/depiction.json
+SileoDepiction: https://username.github.io/repo/depictions/native/com.sukarodo.samplepackage/depiction.json
 ````
 
 #### Rebuilding the `Packages` file
 
 With your updated `control` file, build your tweak.
 *REMOVE THE PACKAGES FILE WITHIN FIRST*
-Store the resulting `.deb.` file into the `/debs/` folder of your repo.
+Store the resulting `.deb.` file into the `/debians/` folder of your repo.
 Build your `Packages` file and compress with `bzip2`.
-
-```
-run update.sh on Mac. (Move update & clean.sh from /assets/ to /*)
-Remove "update.sh" and "clean.sh" on Windows.
-```
 
 _Windows users, see [dpkg-scanpackages-py](https://github.com/supermamon/dpkg-scanpackages-py) or [scanpkg](https://github.com/mstg/scanpkg)._
 
