@@ -4,6 +4,7 @@ A Sileo / Cydia repository template. This template contains samples on how you c
 This guide does NOT cover creating .deb files but will briefly cover assiging depictions.
 
 #### CREDITS TO: @Supermamon, @EssentialisRepo, Saurik, and the Sileo Team
+#### Note: With the Release of Silica from @ShugaBuga, I highly recommend using that over this, however, do as you wish.
 
 ## How to use this template
 If you are *not* hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/sukarodo/Sidia/archive/master.zip) and extract to a subfolder on your website.
